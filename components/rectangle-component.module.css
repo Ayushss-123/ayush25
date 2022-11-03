@@ -1,0 +1,11 @@
+.rectangleButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-700);
+  position: absolute;
+  top: 174px;
+  left: 198px;
+  width: 460px;
+  height: 349px;
+}
