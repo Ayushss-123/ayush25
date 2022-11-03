@@ -1,0 +1,12 @@
+.rectangleTextarea {
+  border: 0;
+  background-color: var(--color-gray-700);
+  position: absolute;
+  top: 603px;
+  left: 198px;
+  width: 460px;
+  height: 349px;
+}
+.rectangleTextarea:hover {
+  background-color: var(--color-red);
+}
