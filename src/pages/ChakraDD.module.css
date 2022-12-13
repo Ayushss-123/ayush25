@@ -1,0 +1,724 @@
+.button {
+  position: relative;
+  display: inline-block;
+  width: 247px;
+  height: 61px;
+  flex-shrink: 0;
+}
+.image10Icon,
+.image11Icon,
+.image12Icon {
+  position: absolute;
+  top: 338px;
+  left: 339px;
+  width: 193px;
+  height: 254px;
+  object-fit: cover;
+}
+.image10Icon,
+.image11Icon {
+  top: 39px;
+  left: 909px;
+  width: 199px;
+  height: 265px;
+}
+.image10Icon {
+  top: 16px;
+  left: 339px;
+  width: 188px;
+  height: 287px;
+}
+.ghost,
+.outline,
+.solid {
+  position: absolute;
+  top: 20px;
+  left: 98px;
+  display: inline-block;
+  width: 149px;
+  height: 42px;
+}
+.ghost,
+.outline {
+  top: 16px;
+  left: 760px;
+}
+.ghost {
+  top: 303px;
+  left: 115px;
+}
+.buttonGhostTextAndIcon,
+.rectangleButton {
+  position: absolute;
+  top: 450px;
+  left: 137px;
+}
+.rectangleButton {
+  top: 354px;
+  left: 100px;
+}
+.buttonOutlinedTextAndIcon {
+  position: absolute;
+  top: 145px;
+  left: 736px;
+}
+.rectangleButton1 {
+  position: absolute;
+  top: 65px;
+  left: 775px;
+}
+.buttonSolidTextAndIcon,
+.frameButton {
+  position: absolute;
+  top: 140px;
+  left: 126px;
+}
+.frameButton {
+  top: 62px;
+  left: 71px;
+}
+.buttons {
+  position: relative;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1554px;
+  height: 607px;
+  flex-shrink: 0;
+  font-size: var(--font-size-lg);
+}
+.image7Icon,
+.image8Icon,
+.image9Icon {
+  position: absolute;
+  top: 39px;
+  left: 1001px;
+  width: 196px;
+  height: 276px;
+  object-fit: cover;
+}
+.image7Icon,
+.image9Icon {
+  top: 24px;
+  left: 339px;
+  width: 209px;
+  height: 293px;
+}
+.image9Icon {
+  top: 585px;
+  width: 217px;
+  height: 309px;
+}
+.filled,
+.flushed,
+.outlined {
+  position: absolute;
+  top: 19px;
+  left: 91px;
+  display: inline-block;
+  width: 158px;
+  height: 33px;
+}
+.filled,
+.flushed {
+  top: 10px;
+  left: 775px;
+}
+.flushed {
+  top: 538px;
+  left: 130px;
+}
+.frameInputGroup,
+.inputFilled,
+.inputFlushed {
+  background-color: transparent;
+  position: absolute;
+  top: 684px;
+  left: 14px;
+}
+.frameInputGroup,
+.inputFilled {
+  top: 585px;
+  left: 100px;
+}
+.inputFilled {
+  top: 130px;
+  left: 666px;
+}
+.frameInputGroup1,
+.frameInputGroup2,
+.inputOutline {
+  background-color: transparent;
+  position: absolute;
+  top: 52px;
+  left: 749px;
+}
+.frameInputGroup2,
+.inputOutline {
+  top: 161px;
+  left: 24px;
+}
+.frameInputGroup2 {
+  top: 62px;
+  left: 71px;
+}
+.inputs {
+  position: relative;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1554px;
+  height: 1051px;
+  flex-shrink: 0;
+  font-size: var(--font-size-lg);
+}
+.checkbox1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.image13Icon,
+.image14Icon {
+  position: absolute;
+  top: 19px;
+  left: 192px;
+  width: 279px;
+  height: 303px;
+  object-fit: cover;
+}
+.image14Icon {
+  top: 22px;
+  left: 715px;
+  height: 300px;
+}
+.image16Icon,
+.image17Icon,
+.image18Icon,
+.image51Icon {
+  position: absolute;
+  top: 24px;
+  left: 1262px;
+  width: 279px;
+  height: 302px;
+  object-fit: cover;
+}
+.image16Icon,
+.image17Icon,
+.image18Icon {
+  top: 610px;
+  left: 147px;
+  height: 297px;
+}
+.image17Icon,
+.image18Icon {
+  left: 715px;
+}
+.image18Icon {
+  top: 608px;
+  left: 1217px;
+  width: 281px;
+  height: 299px;
+}
+.default,
+.defaultLabel {
+  position: absolute;
+  top: 46px;
+  left: 35px;
+  display: inline-block;
+  width: 154px;
+  height: 33px;
+}
+.default {
+  top: 634px;
+  left: 20px;
+}
+.checked,
+.checkedLabel,
+.indeterminate,
+.indeterminateLabel {
+  position: absolute;
+  top: 49px;
+  left: 533px;
+  display: inline-block;
+  width: 175px;
+  height: 33px;
+}
+.checked,
+.indeterminate,
+.indeterminateLabel {
+  top: 648px;
+  left: 549px;
+}
+.indeterminate,
+.indeterminateLabel {
+  top: 46px;
+  left: 1021px;
+  width: 241px;
+}
+.indeterminate {
+  top: 637px;
+  left: 1055px;
+}
+.checkboxChecked {
+  position: absolute;
+  top: 792px;
+  left: 1139px;
+}
+.rectangleCheckbox {
+  position: absolute;
+  top: 684px;
+  left: 1105px;
+}
+.checkboxChecked1,
+.checkboxDefault {
+  position: absolute;
+  top: 812px;
+  left: 631px;
+}
+.checkboxDefault {
+  top: 802px;
+  left: 65px;
+}
+.rectangleCheckbox2 {
+  position: absolute;
+  top: 684px;
+  left: 35px;
+}
+.checkboxCheckedWithLabel {
+  position: absolute;
+  top: 201px;
+  left: 1120px;
+}
+.rectangleCheckbox3 {
+  position: absolute;
+  top: 98px;
+  left: 1105px;
+}
+.checkboxCheckedWithLabel1 {
+  position: absolute;
+  top: 196px;
+  left: 569px;
+}
+.rectangleCheckbox4 {
+  position: absolute;
+  top: 96px;
+  left: 603px;
+}
+.checkboxDefaultWithLabel {
+  position: absolute;
+  top: 206px;
+  left: 31px;
+}
+.rectangleCheckbox5 {
+  position: absolute;
+  top: 98px;
+  left: 35px;
+}
+.checkbox2 {
+  position: relative;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1554px;
+  height: 1051px;
+  flex-shrink: 0;
+  font-size: var(--font-size-base);
+}
+.image19Icon {
+  position: absolute;
+  top: 14px;
+  left: 204px;
+  width: 279px;
+  height: 242px;
+  object-fit: cover;
+}
+.image20Icon,
+.image21Icon,
+.image22Icon {
+  position: absolute;
+  top: 22px;
+  left: 715px;
+  width: 278px;
+  height: 239px;
+  object-fit: cover;
+}
+.image21Icon,
+.image22Icon {
+  top: 610px;
+  left: 147px;
+  width: 280px;
+  height: 234px;
+}
+.image22Icon {
+  left: 715px;
+}
+.radioChecked {
+  position: absolute;
+  top: 788px;
+  left: 649px;
+}
+.radioDefault,
+.rectangleRadioGroup {
+  position: absolute;
+  top: 684px;
+  left: 603px;
+}
+.radioDefault {
+  top: 791px;
+  left: 58px;
+}
+.radioCheckedWithLabel {
+  position: absolute;
+  top: 199px;
+  left: 556px;
+}
+.radioDefaultWithLabel {
+  position: absolute;
+  top: 206px;
+  left: 67px;
+}
+.rectangleRadioGroup3 {
+  position: absolute;
+  top: 99px;
+  left: 35px;
+}
+.image25Icon,
+.image26Icon,
+.image33Icon {
+  position: absolute;
+  top: 39px;
+  left: 1041px;
+  width: 279px;
+  height: 278px;
+  object-fit: cover;
+}
+.image25Icon,
+.image33Icon {
+  top: 24px;
+  left: 374px;
+  width: 281px;
+  height: 279px;
+}
+.image25Icon {
+  top: 585px;
+  left: 339px;
+  height: 282px;
+}
+.filled1,
+.flushed1,
+.outline1 {
+  position: absolute;
+  top: 18px;
+  left: 78px;
+  display: inline-block;
+  width: 176px;
+  height: 34px;
+}
+.filled1,
+.flushed1 {
+  top: 5px;
+  left: 766px;
+}
+.flushed1 {
+  top: 525px;
+  left: 117px;
+}
+.selectFlushed {
+  position: absolute;
+  top: 701px;
+  left: 10px;
+}
+.frameStack,
+.selectFilled {
+  position: absolute;
+  top: 585px;
+  left: 100px;
+}
+.selectFilled {
+  top: 166px;
+  left: 692px;
+}
+.frameStack1,
+.selectOutline {
+  position: absolute;
+  top: 52px;
+  left: 749px;
+}
+.selectOutline {
+  top: 143px;
+  left: 14px;
+}
+.image27Icon,
+.image32Icon {
+  position: absolute;
+  top: 19px;
+  left: 416px;
+  width: 280px;
+  height: 239px;
+  object-fit: cover;
+}
+.image32Icon {
+  top: 28px;
+  left: 1117px;
+}
+.frameSlider,
+.sliderDefault {
+  position: absolute;
+  top: 336px;
+  left: 823px;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.frameSlider {
+  top: 235.5px;
+  left: 955.5px;
+}
+.frameSlider1,
+.sliderDefault1 {
+  position: absolute;
+  top: 214px;
+  left: 48px;
+}
+.frameSlider1 {
+  top: 115px;
+  left: 71px;
+}
+.inputs2 {
+  position: relative;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1554px;
+  height: 356px;
+  flex-shrink: 0;
+}
+.image30Icon,
+.image31Icon {
+  position: absolute;
+  top: 24px;
+  left: 227px;
+  width: 281px;
+  height: 205px;
+  object-fit: cover;
+}
+.image30Icon {
+  left: 687px;
+  width: 274px;
+  height: 185px;
+}
+.groupSwitch,
+.switchDefault {
+  position: absolute;
+  top: 182px;
+  left: 614px;
+}
+.groupSwitch {
+  top: 108px;
+  left: 586px;
+}
+.groupSwitch1,
+.switchDefault1 {
+  position: absolute;
+  top: 163px;
+  left: 153px;
+}
+.groupSwitch1 {
+  top: 108px;
+  left: 126px;
+}
+.inputs3 {
+  position: relative;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1554px;
+  height: 294px;
+  flex-shrink: 0;
+}
+.image35Icon,
+.image37Icon,
+.image38Icon {
+  position: absolute;
+  top: 34px;
+  left: 1135px;
+  width: 277px;
+  height: 332px;
+  object-fit: cover;
+}
+.image35Icon,
+.image37Icon {
+  top: 22px;
+  left: 431px;
+  width: 279px;
+  height: 333px;
+}
+.image37Icon {
+  top: 585px;
+  left: 469px;
+  width: 280px;
+  height: 339px;
+}
+.textAreaFlushed {
+  position: absolute;
+  top: 699px;
+  left: 100px;
+}
+.textAreaFilled,
+.textAreaOutline {
+  position: absolute;
+  top: 180px;
+  left: 800px;
+}
+.textAreaOutline {
+  top: 176px;
+  left: 95px;
+}
+.image39Icon,
+.image41Icon,
+.image43Icon {
+  position: absolute;
+  top: 33px;
+  left: 459px;
+  width: 278px;
+  height: 184px;
+  object-fit: cover;
+}
+.image41Icon,
+.image43Icon {
+  top: 39px;
+  left: 1158px;
+  height: 181px;
+}
+.image43Icon {
+  top: 297px;
+  left: 459px;
+  width: 280px;
+  height: 179px;
+}
+.frameProgress,
+.progressDefault {
+  position: absolute;
+  top: 468px;
+  left: 66px;
+}
+.frameProgress {
+  top: 388px;
+}
+.frameProgress1,
+.progressDefault1 {
+  position: absolute;
+  top: 158px;
+  left: 777px;
+}
+.frameProgress1 {
+  top: 129px;
+}
+.progressDefault2 {
+  position: absolute;
+  top: 154px;
+  left: 71px;
+}
+.inputs5 {
+  position: relative;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1554px;
+  height: 595px;
+  flex-shrink: 0;
+}
+.image44Icon {
+  position: absolute;
+  top: 24px;
+  left: 339px;
+  width: 277px;
+  height: 121px;
+  object-fit: cover;
+}
+.dropdownDefault {
+  position: absolute;
+  top: 259px;
+  left: 92px;
+}
+.inputs6 {
+  position: relative;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1554px;
+  height: 445px;
+  flex-shrink: 0;
+}
+.image45Icon {
+  position: absolute;
+  top: 24px;
+  left: 339px;
+  width: 280px;
+  height: 174px;
+  object-fit: cover;
+}
+.frameAccordion {
+  position: absolute;
+  top: 76px;
+  left: 73px;
+}
+.dateTimePicker,
+.inputs7 {
+  position: relative;
+  flex-shrink: 0;
+}
+.inputs7 {
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1554px;
+  height: 379px;
+}
+.dateTimePicker {
+  display: inline-block;
+  width: 347px;
+  height: 61px;
+}
+.image47Icon,
+.image49Icon,
+.image50Icon {
+  position: absolute;
+  top: 39px;
+  left: 1001px;
+  width: 278px;
+  height: 239px;
+  object-fit: cover;
+}
+.image47Icon,
+.image50Icon {
+  top: 24px;
+  left: 339px;
+  width: 281px;
+}
+.image50Icon {
+  top: 585px;
+  width: 278px;
+  height: 237px;
+}
+.dTPickerFilled,
+.dTPickerFlushed {
+  position: absolute;
+  top: 692px;
+  left: 14px;
+}
+.dTPickerFilled {
+  top: 179px;
+  left: 651px;
+}
+.dTPickerOutlined {
+  position: absolute;
+  top: 214px;
+  left: 14px;
+}
+.chakraDD {
+  position: relative;
+  background-color: #fdffe8;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
